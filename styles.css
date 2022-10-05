@@ -1,0 +1,54 @@
+body {
+  margin: auto;
+}
+
+.menu {
+  display: flex;
+
+  text-align: center;
+}
+
+.menu-toggle {
+  font-size: 42px;
+}
+
+.menu-toggle:focus {
+  outline: 2px solid;
+}
+
+.menu.active {
+  display: block;
+}
+
+.menu ul {
+  list-style: none;
+
+  padding: 2rem 2rem;
+}
+
+.menu li {
+  display: block;
+
+  margin-left: 2rem;
+  padding-left: 2rem;
+}
+
+.menu a {
+  display: block;
+
+  padding: .25em;
+
+  text-decoration: none;
+  color: red;
+  background-color: yellow;
+}
+
+.menu a:hover {
+  background-color: white;
+  color: green;
+}
+
+li {
+  line-height: 2em;
+  padding-left: 1em;
+}
